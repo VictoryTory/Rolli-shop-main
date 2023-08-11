@@ -20,7 +20,6 @@ function renderCart(products) {
 
     const cartWrapper = document.querySelector('.cart-wrapper');
     cartWrapper.innerHTML = '';
-
     products.forEach(productInfo => {
         const cardItemHTML = `
             <div class="cart-item" data-id="${productInfo.id}">
